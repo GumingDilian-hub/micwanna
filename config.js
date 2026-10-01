@@ -25,7 +25,7 @@ window.MICWANNA_CONFIG = {
 
     start: 1,
 
-    max: 200,
+    max: 6,
 
     interval: 5000
 
