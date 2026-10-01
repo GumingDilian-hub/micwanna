@@ -9,19 +9,19 @@ window.MICWANNA_CONFIG = {
   /*
    * 海报设置
    *
-   * images/001.jpg
-   * images/002.jpg
-   * images/003.jpg
-   * images/004.jpg
-   * images/005.jpg
-   * images/006.jpg
+   * images/001.png
+   * images/002.png
+   * images/003.png
+   * images/004.png
+   * images/005.png
+   * images/006.png
    * 依次往后放即可。
    */
   poster: {
 
     folder: "images/",
 
-    extension: ".jpg",
+    extension: ".png",
 
     start: 1,
 
