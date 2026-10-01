@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>micwanna 如此希望</title>
+  <meta
+    name="description"
+    content="micwanna 如此希望 —— 个人项目与作品展示站"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 顶部导航 -->
+  <header class="topbar">
+
+    <a class="brand" href="./">
+      <img
+        src="images/logo.jpg"
+        alt="micwanna logo"
+        class="brand-logo"
+      >
+      <span>micwanna 如此希望</span>
+    </a>
+
+    <a
+      class="github-link"
+      href="https://github.com/GumingDilian-hub"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="images/githublogo.jpg"
+        alt="GitHub"
+      >
+      <span>github开源项目</span>
+    </a>
+
+  </header>
+
+
+  <main class="page">
+
+    <!-- 第一屏 -->
+    <section class="hero">
+
+      <!-- 海报轮播 -->
+      <div class="poster-panel">
+
+        <div class="poster-frame">
+
+          <button
+            class="poster-button poster-prev"
+            id="posterPrev"
+            aria-label="上一张"
+          >
+            ‹
+          </button>
+
+          <div id="posterContainer" class="poster-container">
+            <div class="poster-loading">
+              正在加载海报...
+            </div>
+          </div>
+
+          <button
+            class="poster-button poster-next"
+            id="posterNext"
+            aria-label="下一张"
+          >
+            ›
+          </button>
+
+        </div>
+
+        <div
+          id="posterDots"
+          class="poster-dots"
+        ></div>
+
+      </div>
+
+
+      <!-- 数据卡片 -->
+      <aside class="stats-card">
+
+        <div class="stat-item">
+
+          <div class="stat-label">
+            距离联赛
+          </div>
+
+          <div class="stat-value">
+            <span id="leagueDays">—</span>
+            <small>天</small>
+          </div>
+
+          <div class="stat-line"></div>
+
+          <div class="stat-description">
+            下一次联赛 · 5月10日
+          </div>
+
+        </div>
+
+
+        <div class="stat-item">
+
+          <div class="stat-label">
+            本站总代码量
+          </div>
+
+          <div class="stat-value">
+            <span id="codeAmount">—</span>
+          </div>
+
+          <div class="stat-line"></div>
+
+          <div
+            id="codeDescription"
+            class="stat-description"
+          >
+            正在统计 GitHub 项目...
+          </div>
+
+        </div>
+
+      </aside>
+
+    </section>
+
+
+    <!-- 第二部分 -->
+    <section class="content-grid">
+
+      <!-- 公告 -->
+      <aside class="announcement">
+
+        <div class="section-heading">
+          <span class="heading-number">01</span>
+
+          <div>
+            <div class="heading-title">
+              公告
+            </div>
+
+            <div class="heading-subtitle">
+              ANNOUNCEMENT
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="announcementContent"
+          class="markdown-content"
+        >
+          正在加载公告...
+        </div>
+
+      </aside>
+
+
+      <!-- 项目 -->
+      <section class="projects">
+
+        <div class="section-heading">
+
+          <span class="heading-number">02</span>
+
+          <div>
+            <div class="heading-title">
+              主要项目
+            </div>
+
+            <div class="heading-subtitle">
+              SELECTED PROJECTS
+            </div>
+          </div>
+
+        </div>
+
+
+        <div
+          id="projectsGrid"
+          class="projects-grid"
+        ></div>
+
+      </section>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+
+    <span>
+      MICWANNA
+    </span>
+
+    <span>
+      如此希望 · OPEN SOURCE
+    </span>
+
+  </footer>
+
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
