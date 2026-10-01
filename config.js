@@ -12,7 +12,9 @@ window.MICWANNA_CONFIG = {
    * images/001.jpg
    * images/002.jpg
    * images/003.jpg
-   *
+   * images/004.jpg
+   * images/005.jpg
+   * images/006.jpg
    * 依次往后放即可。
    */
   poster: {
@@ -40,19 +42,19 @@ window.MICWANNA_CONFIG = {
   works: [
 
     {
-      name: "作品一",
+      name: "moreisless",
       url: "#",
       logo: "images/work1.jpg"
     },
 
     {
-      name: "作品二",
-      url: "#",
+      name: "icatch",
+      url: "https://github.com/GumingDilian-hub/input",
       logo: "images/work2.jpg"
     },
 
     {
-      name: "作品三",
+      name: "cobrush",
       url: "#",
       logo: "images/work3.jpg"
     }
