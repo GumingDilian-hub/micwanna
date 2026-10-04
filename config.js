@@ -49,7 +49,7 @@ window.MICWANNA_CONFIG = {
 
     {
       name: "icatch",
-      url: "https://github.com/GumingDilian-hub/input",
+      url: "https://icatch.micwanna.com",
       logo: "images/work2.jpg"
     },
 
