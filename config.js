@@ -49,7 +49,7 @@ window.MICWANNA_CONFIG = {
 
     {
       name: "icatch",
-      url: "https://icatch.micwanna.com",
+      url: "http://icatch.micwanna.com",
       logo: "images/work2.jpg"
     },
 
