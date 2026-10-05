@@ -43,7 +43,7 @@ window.MICWANNA_CONFIG = {
 
     {
       name: "moreisless",
-      url: "#",
+      url: "http://moreisless.micwanna.com",
       logo: "images/work1.jpg"
     },
 
@@ -55,7 +55,7 @@ window.MICWANNA_CONFIG = {
 
     {
       name: "cobrush",
-      url: "#",
+      url: "http://cobrush.micwanna.com",
       logo: "images/work3.jpg"
     }
 
